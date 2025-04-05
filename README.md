@@ -28,6 +28,13 @@ Trénovanie, validácia a testovanie modelov, uloženie vytvorených modelov.
 #### Časová a frekvenčná doména (jednoduchšie modely):
 Modelovanie na 6 hodinovom okne aplitúdy a na fourierovej amplitúde vytvorenej z 6 hodinového okna pomocou metód logistická regresia, náhodné lesy, K-najbližších susedov, stroje s podpornými vektormi - súbor [**models_all_domain.ipynb**](models_all_domain.ipynb).
 
+### Postupnosť spúšťania jednotlivých súborov
+- data_load.ipynb - načítanie dát z .zip súborov
+- data_preparation.ipynb - odvodenie nových atribútov pri amplitúde, príprava datestu o zemetraseniach
+- distance_calculation.ipynb - selekcia zemetrasení
+- model_data_preproccesing.ipynb - príprava amplitúdy na modelovanie
+- následuje samotné modelovanie - NN_freq_domain_6h.ipynb, NN_freq_domain_6h_short_per.ipynb, NN_freq_domain_3h.ipynb, models_all_domain.ipynb
+
 ### Modely:
 #### Časová doména:
 - Logistická regresia - súbor [**lr_cd.pkl**](lr_cd.pkl).
