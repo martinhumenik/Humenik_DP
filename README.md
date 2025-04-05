@@ -37,26 +37,26 @@ Modelovanie na 6 hodinovom okne aplitúdy a na fourierovej amplitúde vytvorenej
 
 ### Modely:
 #### Časová doména:
-- Logistická regresia - súbor [**lr_cd.pkl**](lr_cd.pkl).
+- Logistická regresia - súbor [**lr_cd.pkl**](ML/models/lr_cd.pkl).
 - K-nn - link na stiahnutie [knn_cd.pkl](https://mega.nz/file/pXFTkajT#uFdr2d29VlbsXg2sn2Dps7aYtP-aajUYujqTvhQ_iw4).
-- RF - súbor [**rf_cd.pkl**](rf_cd.pkl).
-- SVM - súbor [**svm_cd.pkl**](svm_cd.pkl).
+- RF - súbor [**rf_cd.pkl**](ML/models/rf_cd.pkl).
+- SVM - súbor [**svm_cd.pkl**](ML/models/svm_cd.pkl).
 
 #### Frekvenčná doména:
 Fourierová amplitúda vytvorená zo 6 hodinové okna s dlhými periódami
-- Logistická regresia - súbor [**lr_fd.pkl**](lr_fd.pkl).
-- K-nn - súbor [**knn_fd.pkl**](knn_fd.pkl).
-- RF - súbor [**rf_fd.pkl**](rf_fd.pkl).
-- SVM - súbor [**svm_fd.pkl**](svm_fd.pkl).
+- Logistická regresia - súbor [**lr_fd.pkl**](ML/models/lr_fd.pkl).
+- K-nn - súbor [**knn_fd.pkl**](ML/models/knn_fd.pkl).
+- RF - súbor [**rf_fd.pkl**](ML/models/rf_fd.pkl).
+- SVM - súbor [**svm_fd.pkl**](ML/models/svm_fd.pkl).
 
-- Konvolučná nerónová sieť - súbor [**nn_conv_6h.pkl**](nn_conv_6h.pkl).
-- Dopredná neurónová sieť - súbor [**nn_mlp_6h.pkl**](nn_mlp_6h.pkl).
+- Konvolučná nerónová sieť - súbor [**nn_conv_6h.pkl**](ML/models/nn_conv_6h.pkl).
+- Dopredná neurónová sieť - súbor [**nn_mlp_6h.pkl**](ML/models/nn_mlp_6h.pkl).
 
 Fourierová amplitúda vytvorená zo 6 hodinové okna s krátkymi periódami
-- Konvolučná nerónová sieť - súbor [**nn_conv_6h_short_per.pkl**](nn_conv_6h_short_per.pkl).
-- Dopredná neurónová sieť - súbor [**nn_mlp_6h_short_per.pkl**](nn_mlp_6h_short_per.pkl).
-- SVM - súbor [**svm_fd_6h_short_per.pkl**](svm_fd_6h_short_per.pkl).
+- Konvolučná nerónová sieť - súbor [**nn_conv_6h_short_per.pkl**](ML/models/nn_conv_6h_short_per.pkl).
+- Dopredná neurónová sieť - súbor [**nn_mlp_6h_short_per.pkl**](ML/models/nn_mlp_6h_short_per.pkl).
+- SVM - súbor [**svm_fd_6h_short_per.pkl**](ML/models/svm_fd_6h_short_per.pkl).
 
 Fourierová amplitúda vytvorená z 3 hodinové okna s dlhými periódami
-- Konvolučná nerónová sieť - súbor [**nn_conv_3h.pkl**](nn_conv_3h.pkl).
-- Dopredná neurónová sieť - súbor [**nn_mlp_3h.pkl**](nn_mlp_3h.pkl).
+- Konvolučná nerónová sieť - súbor [**nn_conv_3h.pkl**](ML/models/nn_conv_3h.pkl).
+- Dopredná neurónová sieť - súbor [**nn_mlp_3h.pkl**](ML/models/nn_mlp_3h.pkl).
