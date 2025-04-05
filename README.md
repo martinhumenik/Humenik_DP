@@ -19,14 +19,14 @@ Vizualizácia dát:
 Trénovanie, validácia a testovanie modelov, uloženie vytvorených modelov.
 
 #### Frekvenčná doména:
-- Modelovanie na fourierovej amplitúde vytvorenej z 6 hodinového okna s dlhšími periódami (od 6 sekúnd do 180 minút) pomocou konvolučnej neurónovej siete, doprednej neurónovej siete - súbor [**NN_freq_domain_6h.ipynb**](NN_freq_domain_6h.ipynb).
+- Modelovanie na fourierovej amplitúde vytvorenej z 6 hodinového okna s dlhšími periódami (od 6 sekúnd do 180 minút) pomocou konvolučnej neurónovej siete, doprednej neurónovej siete - súbor [**NN_freq_domain_6h.ipynb**](ML/NN_freq_domain_6h.ipynb).
 
-- Modelovanie na fourierovej amplitúde vytvorenej z 6 hodinového okna s kratšími periódami (od 1 sekundy do 6 sekúnd) pomocou konvolučnej neurónovej siete, doprednej neurónovej siete - súbor [**NN_freq_domain_6h_short_per.ipynb**](NN_freq_domain_6h_short_per.ipynb).
+- Modelovanie na fourierovej amplitúde vytvorenej z 6 hodinového okna s kratšími periódami (od 1 sekundy do 6 sekúnd) pomocou konvolučnej neurónovej siete, doprednej neurónovej siete - súbor [**NN_freq_domain_6h_short_per.ipynb**](ML/NN_freq_domain_6h_short_per.ipynb).
 
-- Modelovanie na fourierovej amplitúde vytvorenej z 3 hodinového okna s dlhšími periódami (od 6 sekúnd do 180 minút) pomocou konvolučnej neurónovej siete, doprednej neurónovej siete - súbor [**NN_freq_domain_3h.ipynb**](NN_freq_domain_3h.ipynb).
+- Modelovanie na fourierovej amplitúde vytvorenej z 3 hodinového okna s dlhšími periódami (od 6 sekúnd do 180 minút) pomocou konvolučnej neurónovej siete, doprednej neurónovej siete - súbor [**NN_freq_domain_3h.ipynb**](ML/NN_freq_domain_3h.ipynb).
 
 #### Časová a frekvenčná doména (jednoduchšie modely):
-Modelovanie na 6 hodinovom okne aplitúdy a na fourierovej amplitúde vytvorenej z 6 hodinového okna pomocou metód logistická regresia, náhodné lesy, K-najbližších susedov, stroje s podpornými vektormi - súbor [**models_all_domain.ipynb**](models_all_domain.ipynb).
+Modelovanie na 6 hodinovom okne aplitúdy a na fourierovej amplitúde vytvorenej z 6 hodinového okna pomocou metód logistická regresia, náhodné lesy, K-najbližších susedov, stroje s podpornými vektormi - súbor [**models_all_domain.ipynb**](ML/models_all_domain.ipynb).
 
 ### Postupnosť spúšťania jednotlivých súborov
 - data_load.ipynb - načítanie dát z .zip súborov
